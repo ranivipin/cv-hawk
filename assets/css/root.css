@@ -53,6 +53,11 @@
 .fw-700 {
     font-weight: var(--fw-700);
 }
+@media (min-width:768px) {
+    .min_vh_100{
+        min-height: 100vh;
+    }
+}
 
 @media (min-width:768px) and (max-width:992px) {
     :root {
@@ -152,8 +157,54 @@
     }
 }
 
-@media (max-width:768px) {}
+@media (max-width:768px) {
+ .position-absolute5 {
+     position: absolute;
+     right: 0%;
+     bottom: -30%;
+     width: 28%;
+ }
+  .position-absolute2 {
+      top: 17%;
+      left: 4%;
+      width: 23%;
+  }
 
+  .position-absolute3 {
+      position: absolute;
+      right: 4%;
+      top: 18%;
+      width: 23%;
+  }
+
+
+  .position-absolute4 {
+      position: absolute;
+      left: 0%;
+      bottom: -30%;
+      width: 30%;
+  }
+
+  .position-absolute6 {
+      position: absolute;
+      bottom: -18%;
+      left: 7%;
+      width: 4%;
+  }
+
+  .position-absolute7 {
+      width: 5%;
+      position: absolute;
+      left: 49%;
+      bottom: 14%;
+  }
+
+  .position-absolute8 {
+      position: absolute;
+      right: 5%;
+      top: 47%;
+  }
+}
 @media (max-width:992px) {
     .position-absolute2 {
         top: 17%;
