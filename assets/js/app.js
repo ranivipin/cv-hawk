@@ -5,7 +5,7 @@ function openNav() {
 }
 $(".slider").slick({
   dots: true,
-  infinite: false,
+  infinite: true,
   speed: 300,
   autoplay: true,
   slidesToShow: 3,
@@ -43,7 +43,7 @@ $(".slick_slider").slick({
   dots: false,
   infinite: true,
   speed: 300,
-  // autoplay: true,
+  autoplay: true,
   arrow: true,
   prevArrow: ".prev",
   nextArrow: ".next",

@@ -129,14 +129,13 @@
     border-radius: 41px;
     border: 1px solid var(--orange, #F36A3E);
     padding: 17px 38px;
-    background-color: white;
+    background-color: #FAFAFA;
     color: #F36A3E;
 }
-
-/* .btn3:hover{
+.btn3:hover{
     background-color: #F36A3E;
     color: #FFF;
-} */
+} 
 
 @keyframes swing {
     0% {
@@ -151,6 +150,7 @@
         transform: scale(1);
     }
 }
+
 
 .animation {
     animation: swing 2s linear infinite;
@@ -301,7 +301,7 @@
 }
 
 
-.fs-rubik {
+.ff-rubik {
     font-family: 'rubik', sans-serif;
 }
 
